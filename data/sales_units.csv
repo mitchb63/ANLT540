@@ -1,4 +1,4 @@
-Country,Carrier,Model_Type,Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec
+Country,Carrier,Model,Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec
 Austria,Blipper,1,2,2,,4,4,8,4,2,2,4,,
 Austria,Blipper,2,8,4,28,20,12,8,4,16,12,20,15,20
 Austria,Blipper,3,25,24,30,14,48,18,10,24,6,63,24,16
