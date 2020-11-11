@@ -1,4 +1,4 @@
-Machine_Type,Model,Required,Units per Hour
+Machine_Type,Model,Required,Units_per_Hour
 Type_1,Model_1,Yes,102
 Type_2,Model_1,Yes,22
 Type_3,Model_1,Yes,106
