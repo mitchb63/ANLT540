@@ -1,101 +1,101 @@
 Machine_Type,Model,Required,Units per Hour
-Machine 1,Model 1,Yes,102
-Machine 2,Model 1,Yes,22
-Machine 3,Model 1,Yes,106
-Machine 4,Model 1,,
-Machine 5,Model 1,,
-Machine 6,Model 1,,
-Machine 7,Model 1,,
-Machine 8,Model 1,,
-Machine 9,Model 1,,
-Machine 10,Model 1,Yes,260
-Machine 1,Model 2,Yes,124
-Machine 2,Model 2,Yes,16
-Machine 3,Model 2,,
-Machine 4,Model 2,,
-Machine 5,Model 2,,
-Machine 6,Model 2,,
-Machine 7,Model 2,,
-Machine 8,Model 2,,
-Machine 9,Model 2,,
-Machine 10,Model 2,Yes,228
-Machine 1,Model 3,Yes,158
-Machine 2,Model 3,Yes,13
-Machine 3,Model 3,Yes,148
-Machine 4,Model 3,,
-Machine 5,Model 3,,
-Machine 6,Model 3,Yes,21
-Machine 7,Model 3,,
-Machine 8,Model 3,,
-Machine 9,Model 3,,
-Machine 10,Model 3,Yes,292
-Machine 1,Model 4,Yes,113
-Machine 2,Model 4,Yes,16
-Machine 3,Model 4,Yes,184
-Machine 4,Model 4,,
-Machine 5,Model 4,,
-Machine 6,Model 4,Yes,43
-Machine 7,Model 4,,
-Machine 8,Model 4,Yes,66
-Machine 9,Model 4,,
-Machine 10,Model 4,Yes,170
-Machine 1,Model 5,Yes,158
-Machine 2,Model 5,Yes,14
-Machine 3,Model 5,Yes,103
-Machine 4,Model 5,,
-Machine 5,Model 5,Yes,59
-Machine 6,Model 5,,
-Machine 7,Model 5,,
-Machine 8,Model 5,,
-Machine 9,Model 5,,
-Machine 10,Model 5,Yes,283
-Machine 1,Model 6,Yes,112
-Machine 2,Model 6,Yes,12
-Machine 3,Model 6,Yes,170
-Machine 4,Model 6,,
-Machine 5,Model 6,Yes,87
-Machine 6,Model 6,,
-Machine 7,Model 6,Yes,95
-Machine 8,Model 6,,
-Machine 9,Model 6,,
-Machine 10,Model 6,Yes,229
-Machine 1,Model 7,Yes,150
-Machine 2,Model 7,Yes,10
-Machine 3,Model 7,Yes,114
-Machine 4,Model 7,,
-Machine 5,Model 7,Yes,53
-Machine 6,Model 7,,
-Machine 7,Model 7,Yes,63
-Machine 8,Model 7,Yes,89
-Machine 9,Model 7,,
-Machine 10,Model 7,Yes,185
-Machine 1,Model 8,Yes,114
-Machine 2,Model 8,Yes,17
-Machine 3,Model 8,Yes,172
-Machine 4,Model 8,Yes,110
-Machine 5,Model 8,,
-Machine 6,Model 8,,
-Machine 7,Model 8,Yes,84
-Machine 8,Model 8,Yes,37
-Machine 9,Model 8,Yes,56
-Machine 10,Model 8,Yes,196
-Machine 1,Model 9,Yes,123
-Machine 2,Model 9,Yes,16
-Machine 3,Model 9,Yes,92
-Machine 4,Model 9,Yes,109
-Machine 5,Model 9,Yes,90
-Machine 6,Model 9,,
-Machine 7,Model 9,Yes,47
-Machine 8,Model 9,Yes,44
-Machine 9,Model 9,,
-Machine 10,Model 9,Yes,173
-Machine 1,Model 10,Yes,131
-Machine 2,Model 10,Yes,11
-Machine 3,Model 10,Yes,163
-Machine 4,Model 10,Yes,102
-Machine 5,Model 10,Yes,50
-Machine 6,Model 10,Yes,28
-Machine 7,Model 10,Yes,27
-Machine 8,Model 10,Yes,90
-Machine 9,Model 10,,
-Machine 10,Model 10,Yes,296
+Type_1,Model_1,Yes,102
+Type_2,Model_1,Yes,22
+Type_3,Model_1,Yes,106
+Type_4,Model_1,,
+Type_5,Model_1,,
+Type_6,Model_1,,
+Type_7,Model_1,,
+Type_8,Model_1,,
+Type_9,Model_1,,
+Type_10,Model_1,Yes,260
+Type_1,Model_2,Yes,124
+Type_2,Model_2,Yes,16
+Type_3,Model_2,,
+Type_4,Model_2,,
+Type_5,Model_2,,
+Type_6,Model_2,,
+Type_7,Model_2,,
+Type_8,Model_2,,
+Type_9,Model_2,,
+Type_10,Model_2,Yes,228
+Type_1,Model_3,Yes,158
+Type_2,Model_3,Yes,13
+Type_3,Model_3,Yes,148
+Type_4,Model_3,,
+Type_5,Model_3,,
+Type_6,Model_3,Yes,21
+Type_7,Model_3,,
+Type_8,Model_3,,
+Type_9,Model_3,,
+Type_10,Model_3,Yes,292
+Type_1,Model_4,Yes,113
+Type_2,Model_4,Yes,16
+Type_3,Model_4,Yes,184
+Type_4,Model_4,,
+Type_5,Model_4,,
+Type_6,Model_4,Yes,43
+Type_7,Model_4,,
+Type_8,Model_4,Yes,66
+Type_9,Model_4,,
+Type_10,Model_4,Yes,170
+Type_1,Model_5,Yes,158
+Type_2,Model_5,Yes,14
+Type_3,Model_5,Yes,103
+Type_4,Model_5,,
+Type_5,Model_5,Yes,59
+Type_6,Model_5,,
+Type_7,Model_5,,
+Type_8,Model_5,,
+Type_9,Model_5,,
+Type_10,Model_5,Yes,283
+Type_1,Model_6,Yes,112
+Type_2,Model_6,Yes,12
+Type_3,Model_6,Yes,170
+Type_4,Model_6,,
+Type_5,Model_6,Yes,87
+Type_6,Model_6,,
+Type_7,Model_6,Yes,95
+Type_8,Model_6,,
+Type_9,Model_6,,
+Type_10,Model_6,Yes,229
+Type_1,Model_7,Yes,150
+Type_2,Model_7,Yes,10
+Type_3,Model_7,Yes,114
+Type_4,Model_7,,
+Type_5,Model_7,Yes,53
+Type_6,Model_7,,
+Type_7,Model_7,Yes,63
+Type_8,Model_7,Yes,89
+Type_9,Model_7,,
+Type_10,Model_7,Yes,185
+Type_1,Model_8,Yes,114
+Type_2,Model_8,Yes,17
+Type_3,Model_8,Yes,172
+Type_4,Model_8,Yes,110
+Type_5,Model_8,,
+Type_6,Model_8,,
+Type_7,Model_8,Yes,84
+Type_8,Model_8,Yes,37
+Type_9,Model_8,Yes,56
+Type_10,Model_8,Yes,196
+Type_1,Model_9,Yes,123
+Type_2,Model_9,Yes,16
+Type_3,Model_9,Yes,92
+Type_4,Model_9,Yes,109
+Type_5,Model_9,Yes,90
+Type_6,Model_9,,
+Type_7,Model_9,Yes,47
+Type_8,Model_9,Yes,44
+Type_9,Model_9,,
+Type_10,Model_9,Yes,173
+Type_1,Model_10,Yes,131
+Type_2,Model_10,Yes,11
+Type_3,Model_10,Yes,163
+Type_4,Model_10,Yes,102
+Type_5,Model_10,Yes,50
+Type_6,Model_10,Yes,28
+Type_7,Model_10,Yes,27
+Type_8,Model_10,Yes,90
+Type_9,Model_10,,
+Type_10,Model_10,Yes,296
