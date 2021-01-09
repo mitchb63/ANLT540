@@ -187,21 +187,72 @@ for (i in 1:nrow(df_machine_status)){
 }
 
 glimpse(df_survey)
-glimpse(df_machine_status)
-glimpse(df_machine_types)
-glimpse(df_phone_models)
-glimpse(df_model_production)
-glimpse(df_machine_manufacturing_specs)
-glimpse(df_revenue_details)
-glimpse(df_sales_units)
-glimpse(df_shipping_details)
-
 summary(df_survey)
+
+glimpse(df_machine_status)
 summary(df_machine_status)
+
+glimpse(df_machine_types)
 summary(df_machine_types)
+
+glimpse(df_phone_models)
 summary(df_phone_models)
+
+glimpse(df_model_production)
 summary(df_model_production)
+
+glimpse(df_machine_manufacturing_specs)
 summary(df_machine_manufacturing_specs)
+
+glimpse(df_revenue_details)
 summary(df_revenue_details)
+
+glimpse(df_sales_units)
 summary(df_sales_units)
+
+glimpse(df_shipping_details)
 summary(df_shipping_details)
+
+# Calculate number of units produced by Model in each Plant
+df_model_production %>% group_by(Plant, Year) %>%
+  summarize(Model_1_production = sum(Model_1),
+            Model_2_production = sum(Model_2),
+            Model_3_production = sum(Model_3),
+            Model_4_production = sum(Model_4),
+            Model_5_production = sum(Model_5),
+            Model_6_production = sum(Model_6),
+            Model_7_production = sum(Model_7),
+            Model_8_production = sum(Model_8),
+            Model_9_production = sum(Model_9),
+            Model_10_production = sum(Model_10))
+
+# Calculate number of units sold by Month and Model in each Country
+df_sales_units %>% group_by(Country, Model) %>%
+  summarize(Jan_sales_units = sum(Jan),
+            Feb_sales_units = sum(Feb),
+            Mar_sales_units = sum(Mar),
+            Apr_sales_units = sum(Apr),
+            May_sales_units = sum(May),
+            Jun_sales_units = sum(Jun),
+            Jul_sales_units = sum(Jul),
+            Aug_sales_units = sum(Aug),
+            Sep_sales_units = sum(Sep),
+            Oct_sales_units = sum(Oct),
+            Nov_sales_units = sum(Nov),
+            Dec_sales_units = sum(Dec))
+
+# Pivot the dataframe longer so we can total all the unit sales
+glimpse(df_sales_units)
+df_sales_long <- df_sales_units %>%
+  pivot_longer(cols = 4:15, names_to = 'month', values_to = 'units')
+glimpse(df_sales_long)
+
+df_total_sales_by_carrier <- df_sales_long %>%
+  group_by(Carrier, Model) %>%
+  summarize(Total_units_sold = sum(units))
+
+df_total_sales_by_carrier2 <- df_total_sales_by_carrier %>%
+  left_join(df_revenue_details, by = c('Carrier', 'Model'))  %>%
+  mutate(Total_revenue = Total_units_sold * Revenue_per_Unit)
+glimpse(df_total_sales_by_carrier2)
+
