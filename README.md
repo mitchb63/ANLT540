@@ -16,6 +16,6 @@ Big Tech 3 is a company specializing in the production of mobile phones.  One of
 
 ## Deliverables 
 Final deliverables for this project include:
-* The [Final Report Markdown](https://github.com/mitchb63/Project_Switchblade/blob/main/deliverables/Project_Switchblade_Final_Report.pdf) (as PDF)
+* The [Final Project Switchblade Report](https://github.com/mitchb63/Project_Switchblade/blob/main/deliverables/Project_Switchblade_Final_Report.pdf) (as PDF)
 * The [Product Solver](https://github.com/mitchb63/Project_Switchblade/blob/main/deliverables/Product_Solver.xlsx), an Excel based production optimizer.
 
